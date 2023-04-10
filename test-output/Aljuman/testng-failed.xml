@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Aljuman]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="My Horse(failed)">
+    <classes>
+      <class name="com.myhorsetest.MyHorseListingText">
+        <methods>
+          <include name="demo"/>
+          <include name="browserLaunch"/>
+          <include name="test"/>
+          <include name="mydemo"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.myhorsetest.MyHorseListingText -->
+      <class name="com.myhorsetest.MyHorseAchivementTest">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="browserclose"/>
+          <include name="PreconditionForPicVideo"/>
+          <include name="f"/>
+          <include name="mydemo"/>
+        </methods>
+      </class> <!-- com.myhorsetest.MyHorseAchivementTest -->
+      <class name="com.myhorsetest.MyHorsePicVideoTest">
+        <methods>
+          <include name="browserclose"/>
+          <include name="PreconditionForPicVideo"/>
+          <include name="mydemo"/>
+          <include name="MyHorsePicVideo"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- com.myhorsetest.MyHorsePicVideoTest -->
+      <class name="com.myhorsetest.MyhorseNoteTest">
+        <methods>
+          <include name="mydemo"/>
+          <include name="PreconditionForNote"/>
+          <include name="browserLaunch"/>
+          <include name="MyHorseNote"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- com.myhorsetest.MyhorseNoteTest -->
+    </classes>
+  </test> <!-- My Horse(failed) -->
+</suite> <!-- Failed suite [Aljuman] -->

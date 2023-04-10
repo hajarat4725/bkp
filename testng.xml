@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Aljuman">
+  <test thread-count="5" name="My Horse">
+    <classes>
+
+       
+       <class name="com.myhorsetest.MyHorseListingText"/>
+
+       <class name="com.myhorsetest.MyHorseHealth1_vitalsignTest"/>
+       <class name="com.myhorsetest.MyHorseHealth2_VaccinationTest"/>
+       <class name="com.myhorsetest.MyHorseHealth3_ParasiteControlTest"/>
+       <class name="com.myhorsetest.MyHorseHealth4_DentalTest"/>
+       <class name="com.myhorsetest.MyHorseHealth5_VetcliniclTest"/>
+       <class name="com.myhorsetest.MyHorseHealth6_TreatmentTest"/>
+       <class name="com.myhorsetest.MyHorseHealth7_LabtestTest"/>
+       <class name="com.myhorsetest.MyHorseHealth8_XrayTest"/>
+
+       <class name="com.myhorsetest.MyHorseDieTest"/>
+
+        <class name="com.myhorsetest.MyHorseDieTest"/>
+        <class name="com.myhorsetest.MyHorseFarrierTest"/>
+
+       <class name="com.myhorsetest.MyHorseMeasurementTest"/>
+       <class name="com.myhorsetest.MyHorseAchivementTest"/>
+       <class name="com.myhorsetest.MyHorseDocumentTest"/>
+        <class name="com.myhorsetest.MyHorsePicVideoTest"/>
+        <class name="com.myhorsetest.MyhorseNoteTest"/>
+
+
+
+
+    </classes>
+  </test> <!-- My Horse -->
+</suite> <!-- Aljuman -->
